@@ -19,4 +19,9 @@ interface GroceryDao {
     @Query("SELECT * FROM grocery_items")
     fun getallItems() : LiveData<List<GroceryItems>>
 
+    @Query("SELECT itemPrice FROM grocery_items")
+    fun getPrice() : LiveData<List<GroceryItems>>
+
+    
+
 }
