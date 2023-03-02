@@ -9,10 +9,10 @@ data class GroceryItems {
     @ColumnInfo(name = "itemName")
     var itemName: String,
 
-    @ColumnInfo(name = "itmeQuantity")
+    @ColumnInfo(name = "itemQuantity")
     var itemQuantity: String,
 
-    @ColumnInfo(name = "itmePrice")
-    var itemPrice: int,
+    @ColumnInfo(name = "itemPrice")
+    var itemPrice: String
 
 }
